@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A62D5A842B5A58BF00D58463 /* VideoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D5A832B5A58BF00D58463 /* VideoPickerViewController.swift */; };
+		A62D5A862B5A58C900D58463 /* VideoPicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A62D5A852B5A58C900D58463 /* VideoPicker.storyboard */; };
+		A62D5A892B5A5AE600D58463 /* VideoPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D5A872B5A5AE600D58463 /* VideoPickerCell.swift */; };
+		A62D5A8A2B5A5AE600D58463 /* VideoPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A62D5A882B5A5AE600D58463 /* VideoPickerCell.xib */; };
+		A62D5A8C2B5A5C9F00D58463 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62D5A8B2B5A5C9F00D58463 /* GeneralView.swift */; };
+		A62E4AAF2B6268CD00673063 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E4AAE2B6268CD00673063 /* UIUtilities.swift */; };
+		A62E4AB12B6269DD00673063 /* GolfAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62E4AB02B6269DD00673063 /* GolfAlignment.swift */; };
 		A654BC862B59092C0025E430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A654BC852B59092C0025E430 /* AppDelegate.swift */; };
 		A654BC882B59092C0025E430 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A654BC872B59092C0025E430 /* SceneDelegate.swift */; };
 		A654BC8A2B59092C0025E430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A654BC892B59092C0025E430 /* ViewController.swift */; };
 		A654BC8D2B59092C0025E430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A654BC8B2B59092C0025E430 /* Main.storyboard */; };
 		A654BC8F2B59092D0025E430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A654BC8E2B59092D0025E430 /* Assets.xcassets */; };
 		A654BC922B59092D0025E430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A654BC902B59092D0025E430 /* LaunchScreen.storyboard */; };
+		A654BC9B2B592A070025E430 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A654BC9A2B592A070025E430 /* AVPlayer.swift */; };
+		A654BC9E2B59344F0025E430 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A654BC9D2B59344F0025E430 /* BaseViewController.swift */; };
+		A683C0EE2B5A1A880022152F /* VideoUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683C0ED2B5A1A880022152F /* VideoUtil.swift */; };
+		A683C0F22B5A31700022152F /* ImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683C0F12B5A31700022152F /* ImportViewController.swift */; };
+		A683C0F42B5A317D0022152F /* Import.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A683C0F32B5A317D0022152F /* Import.storyboard */; };
+		A683C0F62B5A34420022152F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683C0F52B5A34420022152F /* UIViewControllerExtension.swift */; };
+		A683C0F92B5A366A0022152F /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A683C0F82B5A366A0022152F /* SettingViewController.swift */; };
+		A683C0FB2B5A36720022152F /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A683C0FA2B5A36720022152F /* Setting.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A62D5A832B5A58BF00D58463 /* VideoPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPickerViewController.swift; sourceTree = "<group>"; };
+		A62D5A852B5A58C900D58463 /* VideoPicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VideoPicker.storyboard; sourceTree = "<group>"; };
+		A62D5A872B5A5AE600D58463 /* VideoPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPickerCell.swift; sourceTree = "<group>"; };
+		A62D5A882B5A5AE600D58463 /* VideoPickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPickerCell.xib; sourceTree = "<group>"; };
+		A62D5A8B2B5A5C9F00D58463 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		A62E4AAE2B6268CD00673063 /* UIUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		A62E4AB02B6269DD00673063 /* GolfAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfAlignment.swift; sourceTree = "<group>"; };
 		A654BC822B59092C0025E430 /* Demo0118.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo0118.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A654BC852B59092C0025E430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A654BC872B59092C0025E430 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +46,14 @@
 		A654BC8E2B59092D0025E430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A654BC912B59092D0025E430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A654BC932B59092D0025E430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A654BC9A2B592A070025E430 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
+		A654BC9D2B59344F0025E430 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A683C0ED2B5A1A880022152F /* VideoUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUtil.swift; sourceTree = "<group>"; };
+		A683C0F12B5A31700022152F /* ImportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportViewController.swift; sourceTree = "<group>"; };
+		A683C0F32B5A317D0022152F /* Import.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Import.storyboard; sourceTree = "<group>"; };
+		A683C0F52B5A34420022152F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		A683C0F82B5A366A0022152F /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A683C0FA2B5A36720022152F /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +67,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A62D5A812B5A589700D58463 /* Video Picker */ = {
+			isa = PBXGroup;
+			children = (
+				A62D5A832B5A58BF00D58463 /* VideoPickerViewController.swift */,
+				A62D5A852B5A58C900D58463 /* VideoPicker.storyboard */,
+				A62D5A872B5A5AE600D58463 /* VideoPickerCell.swift */,
+				A62D5A882B5A5AE600D58463 /* VideoPickerCell.xib */,
+			);
+			path = "Video Picker";
+			sourceTree = "<group>";
+		};
+		A62E4AAD2B6268B000673063 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A62E4AB02B6269DD00673063 /* GolfAlignment.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		A654BC792B59092C0025E430 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +105,13 @@
 		A654BC842B59092C0025E430 /* Demo0118 */ = {
 			isa = PBXGroup;
 			children = (
+				A62E4AAD2B6268B000673063 /* Library */,
+				A62D5A812B5A589700D58463 /* Video Picker */,
+				A683C0F72B5A365D0022152F /* Setting */,
+				A683C0EF2B5A31420022152F /* Import */,
+				A683C0EA2B5A0BC50022152F /* Utils */,
+				A654BC9C2B59343D0025E430 /* View Common */,
+				A654BC992B5929F30025E430 /* Extension */,
 				A654BC852B59092C0025E430 /* AppDelegate.swift */,
 				A654BC872B59092C0025E430 /* SceneDelegate.swift */,
 				A654BC892B59092C0025E430 /* ViewController.swift */,
@@ -65,6 +121,51 @@
 				A654BC932B59092D0025E430 /* Info.plist */,
 			);
 			path = Demo0118;
+			sourceTree = "<group>";
+		};
+		A654BC992B5929F30025E430 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A654BC9A2B592A070025E430 /* AVPlayer.swift */,
+				A683C0F52B5A34420022152F /* UIViewControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A654BC9C2B59343D0025E430 /* View Common */ = {
+			isa = PBXGroup;
+			children = (
+				A654BC9D2B59344F0025E430 /* BaseViewController.swift */,
+				A62D5A8B2B5A5C9F00D58463 /* GeneralView.swift */,
+			);
+			path = "View Common";
+			sourceTree = "<group>";
+		};
+		A683C0EA2B5A0BC50022152F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A683C0ED2B5A1A880022152F /* VideoUtil.swift */,
+				A62E4AAE2B6268CD00673063 /* UIUtilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A683C0EF2B5A31420022152F /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				A683C0F12B5A31700022152F /* ImportViewController.swift */,
+				A683C0F32B5A317D0022152F /* Import.storyboard */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		A683C0F72B5A365D0022152F /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A683C0F82B5A366A0022152F /* SettingViewController.swift */,
+				A683C0FA2B5A36720022152F /* Setting.storyboard */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +226,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62D5A8A2B5A5AE600D58463 /* VideoPickerCell.xib in Resources */,
 				A654BC922B59092D0025E430 /* LaunchScreen.storyboard in Resources */,
 				A654BC8F2B59092D0025E430 /* Assets.xcassets in Resources */,
+				A683C0FB2B5A36720022152F /* Setting.storyboard in Resources */,
 				A654BC8D2B59092C0025E430 /* Main.storyboard in Resources */,
+				A62D5A862B5A58C900D58463 /* VideoPicker.storyboard in Resources */,
+				A683C0F42B5A317D0022152F /* Import.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +243,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A62D5A842B5A58BF00D58463 /* VideoPickerViewController.swift in Sources */,
+				A654BC9E2B59344F0025E430 /* BaseViewController.swift in Sources */,
 				A654BC8A2B59092C0025E430 /* ViewController.swift in Sources */,
+				A62E4AAF2B6268CD00673063 /* UIUtilities.swift in Sources */,
+				A654BC9B2B592A070025E430 /* AVPlayer.swift in Sources */,
+				A683C0EE2B5A1A880022152F /* VideoUtil.swift in Sources */,
+				A683C0F62B5A34420022152F /* UIViewControllerExtension.swift in Sources */,
+				A62E4AB12B6269DD00673063 /* GolfAlignment.swift in Sources */,
+				A683C0F92B5A366A0022152F /* SettingViewController.swift in Sources */,
 				A654BC862B59092C0025E430 /* AppDelegate.swift in Sources */,
+				A62D5A892B5A5AE600D58463 /* VideoPickerCell.swift in Sources */,
+				A62D5A8C2B5A5C9F00D58463 /* GeneralView.swift in Sources */,
 				A654BC882B59092C0025E430 /* SceneDelegate.swift in Sources */,
+				A683C0F22B5A31700022152F /* ImportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +408,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF7Q5Y459A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Demo0118/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +416,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FF7Q5Y459A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Demo0118/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +445,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
